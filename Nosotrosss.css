@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(95, 252, 226) ;
+    padding: 20px;
+}
+
+
+/*CABECERA*/
+header {
+    max-width: 1700px;
+    min-height: 130px;
+     margin: 0 auto;
+     border-radius: 20px  20px 0 0 ;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
+background: linear-gradient(to bottom,  rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#logo{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left:20px ;
+    animation: 1s entradalogo 1;
+}
+
+#logo img:hover {
+    filter: blur(2px);
+}
+
+/*CABECERA*/
+
+
+
+/*Menu horizontal*/
+#menu-h {
+    max-width: 1700px;
+    min-height: 50px;
+    background: black;
+    margin: 0 auto;
+}
+
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content:center ;
+}
+
+
+#menu-h a {
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-family: Impact;
+    font-size: 18px;
+}
+
+
+#menu-h a:hover {
+    background: rgb(128, 128, 243); 
+}
+
+#menu-h ul ul {
+    display: none;
+    position: absolute;
+}
+
+#menu-h ul li:hover ul{
+    display: block;
+
+}
+
+/*Menu horizontal*/
+
+
+
+
+#banner{
+    max-width: 1700px;
+    min-height: 200px;
+    background: rgb(240, 253, 253);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#contenedor{
+    max-width: 1700px;
+    min-height: 700px;
+   background: white;
+    margin: 0 auto;
+}
+#contenedor h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contenedor p{
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+/*MENU VERTICAL*/
+
+#menu-v{
+    width: 300px;
+    min-height: 1100px;
+    background: #ccc;
+    float: left;
+
+}
+
+#menu-v img{
+    height:28px;
+
+}
+
+#menu-v ul {
+    list-style: none;
+    color:aliceblue;
+    padding: 10ppx;
+}
+
+#menu-v a {
+    display: block;
+    color: antiquewhite;
+    background: #000;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: 18px;
+ 
+}
+
+#menu-v a:hover{
+    background: rgb(135, 135, 252);
+}
+
+#menu-v a:hover img{
+    animation: 1s rotacion 1;
+}
+
+
+
+/*MENU VERTICAL*/
+
+
+
+/*CONTENIDO*/
+
+
+.img-izq{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 2px inset rgb(0, 0, 0);
+    padding: 5px;
+
+}
+
+/*CONTENIDO*/
+
+
+
+/*PIE DE PAGINA*/
+
+footer{
+    max-width: 1700px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: -18px;
+}
+
+/*PIE DE PAGINA*/
+
+
+
+
+.cirave{
+    width:1265px ;
+height: 450px;
+border-radius: 17px;
+}
+
+
+
+h1{
+    text-align: center;
+    background-color: rgb(207, 236, 243);
+    font-size: 26px;
+    font-family: 'Times New Roman';
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(207, 236, 243); 
+    font-family: 'Times New Roman';
+}
+ 
+.Misión {
+        margin-top: 70px;
+        margin-right: 510px;
+        margin-left: 334px;
+        
+}
+
+#misi{
+    margin-left: 640px;
+    margin-top: -400px;
+    width: 180px;
+    height: 200px;
+    margin-bottom: 45px;
+}
+
+.Visión {
+
+margin-left: 900px;
+margin-right: 40px;
+margin-top: 60px;
+    
+}
+
+#visi{
+margin-left: 160px;
+margin-top: -890px;
+width: 180px;
+height: 200px;
+border-radius: 19px;
+margin-bottom: 38px;
+}
+
+.Valores{
+    margin-top: 100px;
+    margin-right: 430px;
+    margin-left: 330px;
+
+}
+
+#valo{
+    margin-left: 1000px;
+    margin-top: -350px;
+    width: 180px;
+    height: 200px;
+    margin-bottom: 140px;
+
+}
+
+
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+    0%{
+        transform: translateY(-200px) ;
+    }
+}
+
+@keyframes rotacion {
+
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*KEYFRAMES*/
